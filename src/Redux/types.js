@@ -1,0 +1,3 @@
+export const FETCH_CARDS = 'CARD/FETCH_CARDS';
+export const FILTER_CARDS = 'CARD/FILTER_CARDS';
+export const SORT_CARDS = 'CARD/SORT_CARDS';

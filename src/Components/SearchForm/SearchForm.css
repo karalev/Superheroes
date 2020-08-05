@@ -1,0 +1,16 @@
+.searchForm-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #98fb98;
+    font-size: 18px;
+}
+
+.searchForm-statName,
+.searchForm-heroName {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #f0fff0;
+}

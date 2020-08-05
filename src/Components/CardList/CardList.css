@@ -1,0 +1,48 @@
+.cardList-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+.cardList-item {
+    margin: 15px;
+    list-style: none;
+    max-width: 400px;
+    position: relative;
+}
+
+.cardList-emptyListMessage {
+    text-align: center;
+    background-color: #F9C80E;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1049px) {
+    .cardList-list {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .cardList-item {
+        margin: 20px;
+        width: calc(50% - 40px);
+    }
+}
+
+@media only screen and (min-width: 1050px)  {
+    .cardList-list {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .cardList-item {
+        margin: 10px;
+        width: calc(33% - 20px);
+    }
+}

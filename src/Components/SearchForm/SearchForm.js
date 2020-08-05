@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+
 import { filterCards, sortCards } from '../../Redux/actions';
 import './SearchForm.css';
 
@@ -16,9 +17,6 @@ function SearchForm () {
     ];
 
     const dispatch = useDispatch();
-    const submitHandler = (event) => {
-        event.preventDefault();
-    }
 
     useEffect(()=> {
         dispatch(filterCards(searchName));
@@ -34,7 +32,7 @@ function SearchForm () {
 
     return (
         <div className="searchForm-container">
-            <form onSubmit={submitHandler}>
+            <form onSubmit={event => event.preventDefault()}>
                 <label htmlFor="heroName">Hero's Name:</label>
                 <input type="search" 
                 id="heroName" 

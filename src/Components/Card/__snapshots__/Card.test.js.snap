@@ -1,0 +1,919 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders card component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <article
+        class="heroCard-container heroCard-container--highlightGood"
+      >
+        <p
+          class="heroCard-id"
+        >
+          69
+        </p>
+        <p
+          class="heroCard-name"
+        >
+          Batman
+        </p>
+        <img
+          alt="Batman"
+          class="heroCard-image"
+          src="https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg"
+        />
+        <table
+          class="heroCard-powerstatsList"
+        >
+          <tbody>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                intelligence
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+              >
+                81
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                strength
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+              >
+                40
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                speed
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+              >
+                29
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                durability
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+              >
+                55
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                power
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+              >
+                63
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                combat
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+              >
+                90
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <ul
+          class="heroCard-biography"
+        >
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              full-name
+            </span>
+            : 
+            <span>
+              Terry McGinnis
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              alter-egos
+            </span>
+            : 
+            <span>
+              No alter egos found.
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              aliases
+            </span>
+            :
+            <ul>
+              <li>
+                Batman II
+              </li>
+              <li>
+                The Tomorrow Knight
+              </li>
+              <li>
+                The second Dark Knight
+              </li>
+              <li>
+                The Dark Knight of Tomorrow
+              </li>
+              <li>
+                Batman Beyond
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              place-of-birth
+            </span>
+            : 
+            <span>
+              Gotham City, 25th Century
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              first-appearance
+            </span>
+            : 
+            <span>
+              Batman Beyond #1
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              publisher
+            </span>
+            : 
+            <span>
+              DC Comics
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              alignment
+            </span>
+            : 
+            <span>
+              good
+            </span>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </body>,
+  "container": <div>
+    <article
+      class="heroCard-container heroCard-container--highlightGood"
+    >
+      <p
+        class="heroCard-id"
+      >
+        69
+      </p>
+      <p
+        class="heroCard-name"
+      >
+        Batman
+      </p>
+      <img
+        alt="Batman"
+        class="heroCard-image"
+        src="https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg"
+      />
+      <table
+        class="heroCard-powerstatsList"
+      >
+        <tbody>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              intelligence
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+            >
+              81
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              strength
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+            >
+              40
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              speed
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+            >
+              29
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              durability
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+            >
+              55
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              power
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+            >
+              63
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              combat
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+            >
+              90
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <ul
+        class="heroCard-biography"
+      >
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            full-name
+          </span>
+          : 
+          <span>
+            Terry McGinnis
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            alter-egos
+          </span>
+          : 
+          <span>
+            No alter egos found.
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            aliases
+          </span>
+          :
+          <ul>
+            <li>
+              Batman II
+            </li>
+            <li>
+              The Tomorrow Knight
+            </li>
+            <li>
+              The second Dark Knight
+            </li>
+            <li>
+              The Dark Knight of Tomorrow
+            </li>
+            <li>
+              Batman Beyond
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            place-of-birth
+          </span>
+          : 
+          <span>
+            Gotham City, 25th Century
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            first-appearance
+          </span>
+          : 
+          <span>
+            Batman Beyond #1
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            publisher
+          </span>
+          : 
+          <span>
+            DC Comics
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            alignment
+          </span>
+          : 
+          <span>
+            good
+          </span>
+        </li>
+      </ul>
+    </article>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders learn react link 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <article
+        class="heroCard-container heroCard-container--highlightGood"
+      >
+        <p
+          class="heroCard-id"
+        >
+          69
+        </p>
+        <p
+          class="heroCard-name"
+        >
+          Batman
+        </p>
+        <img
+          alt="Batman"
+          class="heroCard-image"
+          src="https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg"
+        />
+        <table
+          class="heroCard-powerstatsList"
+        >
+          <tbody>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                intelligence
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+              >
+                81
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                strength
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+              >
+                40
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                speed
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+              >
+                29
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                durability
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+              >
+                55
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                power
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+              >
+                63
+              </td>
+            </tr>
+            <tr>
+              <td
+                class="heroCard-fieldName"
+              >
+                combat
+                :
+              </td>
+              <td
+                class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+              >
+                90
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <ul
+          class="heroCard-biography"
+        >
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              full-name
+            </span>
+            : 
+            <span>
+              Terry McGinnis
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              alter-egos
+            </span>
+            : 
+            <span>
+              No alter egos found.
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              aliases
+            </span>
+            :
+            <ul>
+              <li>
+                Batman II
+              </li>
+              <li>
+                The Tomorrow Knight
+              </li>
+              <li>
+                The second Dark Knight
+              </li>
+              <li>
+                The Dark Knight of Tomorrow
+              </li>
+              <li>
+                Batman Beyond
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              place-of-birth
+            </span>
+            : 
+            <span>
+              Gotham City, 25th Century
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              first-appearance
+            </span>
+            : 
+            <span>
+              Batman Beyond #1
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              publisher
+            </span>
+            : 
+            <span>
+              DC Comics
+            </span>
+          </li>
+          <li>
+            <span
+              class="heroCard-fieldName"
+            >
+              alignment
+            </span>
+            : 
+            <span>
+              good
+            </span>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </body>,
+  "container": <div>
+    <article
+      class="heroCard-container heroCard-container--highlightGood"
+    >
+      <p
+        class="heroCard-id"
+      >
+        69
+      </p>
+      <p
+        class="heroCard-name"
+      >
+        Batman
+      </p>
+      <img
+        alt="Batman"
+        class="heroCard-image"
+        src="https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg"
+      />
+      <table
+        class="heroCard-powerstatsList"
+      >
+        <tbody>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              intelligence
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+            >
+              81
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              strength
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+            >
+              40
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              speed
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightLow"
+            >
+              29
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              durability
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+            >
+              55
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              power
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightMedium"
+            >
+              63
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="heroCard-fieldName"
+            >
+              combat
+              :
+            </td>
+            <td
+              class="heroCard-fieldValue heroCard-fieldValue--highlightHigh"
+            >
+              90
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <ul
+        class="heroCard-biography"
+      >
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            full-name
+          </span>
+          : 
+          <span>
+            Terry McGinnis
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            alter-egos
+          </span>
+          : 
+          <span>
+            No alter egos found.
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            aliases
+          </span>
+          :
+          <ul>
+            <li>
+              Batman II
+            </li>
+            <li>
+              The Tomorrow Knight
+            </li>
+            <li>
+              The second Dark Knight
+            </li>
+            <li>
+              The Dark Knight of Tomorrow
+            </li>
+            <li>
+              Batman Beyond
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            place-of-birth
+          </span>
+          : 
+          <span>
+            Gotham City, 25th Century
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            first-appearance
+          </span>
+          : 
+          <span>
+            Batman Beyond #1
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            publisher
+          </span>
+          : 
+          <span>
+            DC Comics
+          </span>
+        </li>
+        <li>
+          <span
+            class="heroCard-fieldName"
+          >
+            alignment
+          </span>
+          : 
+          <span>
+            good
+          </span>
+        </li>
+      </ul>
+    </article>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

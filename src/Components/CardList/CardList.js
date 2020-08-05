@@ -1,18 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import {Card} from '../Card/Card';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchCards } from '../../Redux/actions';
+import { useSelector } from 'react-redux';
+
+import { Card } from '../Card/Card';
 import './CardList.css';
 
 function CardList () {
-    const [filteredList, setFilteredList] = useState([]);
-    const dispatch = useDispatch();
-
-    useEffect(()=> {
-        dispatch(fetchCards());
-    }, [dispatch]);
-
     const herolist = useSelector(state => state.cards.cards);
+    const [filteredList, setFilteredList] = useState(herolist);
+    
     let filter = useSelector(state => state.cards.filter).toLowerCase();
     let sortOption = useSelector(state => state.cards.sortOption).toLowerCase();
 

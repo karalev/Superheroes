@@ -1,3 +1,5 @@
 export const FETCH_CARDS = 'CARD/FETCH_CARDS';
+export const SHOW_LOADER = 'APP/SHOW_LOADER';
+export const HIDE_LOADER = 'APP/HIDE_LOADER';
 export const FILTER_CARDS = 'CARD/FILTER_CARDS';
 export const SORT_CARDS = 'CARD/SORT_CARDS';

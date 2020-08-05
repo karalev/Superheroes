@@ -1,5 +1,6 @@
 .searchForm-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 15px;
     background-color: #98fb98;
@@ -8,9 +9,16 @@
 
 .searchForm-statName,
 .searchForm-heroName {
+    margin: 5px 0;
     padding: 5px;
     border: none;
     border-radius: 5px;
     font-size: 18px;
     background-color: #f0fff0;
+}
+
+@media only screen and (min-width: 600px) {
+    .searchForm-container {
+        flex-direction: row;
+    }
 }

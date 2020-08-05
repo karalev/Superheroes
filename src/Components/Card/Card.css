@@ -8,6 +8,10 @@
     background-color: white;
 }
 
+.heroCard-container:hover {
+    box-shadow: 0px 1px 4px black;
+}
+
 .heroCard-id {
     position: absolute;
     top: -15px;
